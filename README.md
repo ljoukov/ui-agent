@@ -7,6 +7,7 @@ SvelteKit component library scaffolded with the official `sv` CLI.
 - Package name: `@ljoukov/ui-agent`
 - License: `MIT`
 - npm publish status: not published yet
+- Backend runtime dependency: `@ljoukov/llm`
 
 When you're ready to publish to npm:
 
