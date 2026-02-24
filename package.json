@@ -10,7 +10,9 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test": "npm run test:integration",
-		"test:integration": "node --test tests/integration/**/*.test.mjs"
+		"test:integration": "node --import tsx --test tests/integration/**/*.test.ts",
+		"example:ukmt-h6": "node --import tsx examples/ukmt-h6-socratic/run.ts",
+		"ux:capture": "node --import tsx scripts/ux/capture-iteration.ts"
 	},
 	"files": [
 		"dist",
@@ -41,9 +43,11 @@
 		"@sveltejs/kit": "^2.50.2",
 		"@sveltejs/package": "^2.5.7",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
+		"playwright": "^1.55.0",
 		"publint": "^0.3.17",
 		"svelte": "^5.49.2",
 		"svelte-check": "^4.3.6",
+		"tsx": "^4.20.5",
 		"typescript": "^5.9.3",
 		"vite": "^7.3.1"
 	},

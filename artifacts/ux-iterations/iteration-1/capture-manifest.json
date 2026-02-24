@@ -1,0 +1,10 @@
+{
+  "iteration": 1,
+  "url": "http://127.0.0.1:4173",
+  "screenshots": [
+    "step-1-initial-desktop.png",
+    "step-2-simulated-attempt-desktop.png",
+    "step-3-agent-feedback-desktop.png",
+    "step-4-mobile-final.png"
+  ]
+}

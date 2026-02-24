@@ -31,3 +31,7 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Example runtimes
+examples/*/runtime-workspace
+.runtime/
